@@ -7,11 +7,11 @@ app.use(express.json());
 app.post('/crear-ticket', async (req, res) => {
     try {
         const response = await axios.post(
-            'https://farbiopharma.com/soporte/api/tickets.json', // Cambia esto
+            'https://farbiopharma.com/soporte/api/tickets.json', // 
             req.body,
             {
                 headers: {
-                    'X-API-Key': '180FC98ABB839604165B01A01FFD87EF', // Cambia esto
+                    'X-API-Key': 'CEEE3FC248B73A841A00CB09D4F923FF', // 44.226.122.3
                     'Content-Type': 'application/json'
                 }
             }
