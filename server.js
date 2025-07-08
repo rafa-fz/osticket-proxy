@@ -11,7 +11,7 @@ app.post('/crear-ticket', async (req, res) => {
             req.body,
             {
                 headers: {
-                    'X-API-Key': 'TU_API_KEY', // Cambia esto
+                    'X-API-Key': 'AAD8F8077BE75EA877F9E4870BF3DE90', // Cambia esto
                     'Content-Type': 'application/json'
                 }
             }
